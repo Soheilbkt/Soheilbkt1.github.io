@@ -17,7 +17,7 @@ let urlaelm= document.querySelector(".url-don")
 
 btncoptclipbord.addEventListener("click",(item)=>{
     if(window.navigator.vibrate){
-        navigator.vibrate(200);
+        navigator.vibrate(20000);
     }
 
     if(window.navigator.clipboard.writeText){
@@ -127,7 +127,7 @@ function donlowadtxt(txt){
     urlaelm.href = url;
     urlaelm.download = "password you file .txt"
     if(window.navigator.vibrate){
-        navigator.vibrate(200);
+        navigator.vibrate(2000);
     }
     
 
