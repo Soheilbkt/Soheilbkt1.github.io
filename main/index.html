@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body class=" bg-gray-900 flex justify-center bg-no-repeat bg-cover bg-center "></body>
+<img src="" alt="">
+<div class="m-auto w-4/5 flex items-center flex-col mx-auto my-48">
+  <header>
+    <p class="text-gray-500">password generator</p>
+  </header>
+  <div class="bg-gray-800 w-full flex flex-row justify-between p-2 items-center">
+    <p class="text-white text-pas font-sans ">ptx1f5dafx</p>
+    <div class="flex w-1/5 justify-between items-center lg:w-[10%] md:w-[10%]">
+      <img src="icon/icon_link_alt.png" class="copy-text" alt="">
+     <a href=""  class="url-don">
+      <img src="icon/icon_folder_download.png" class="copy-text" alt="">
+     </a> 
+    </div>
+
+  </div>
+  <div class="bg-gray-800 w-full flex flex-col  justify-between p-2 mt-4">
+    <div class="flex justify-between w-full items-center ">
+      <p class="text-white">character length</p>
+      <p class="text-green-500 text-lg num-range">10</p>
+    </div>
+    <input type="range" name="" id="" class="bg-green-400  h-2 appearance-none my-2 " max="15" min="2">
+    <div class="mt-4">
+      <label class="flex flex-row-reverse justify-end my-3 " >
+        <p class="ml-5 text-white font-light">include uppercase letters</p>
+        <input type="checkbox" class="w-5 h-5 words before:w-[3.5vh] before:h-[3.5vh] before:block disabled:before:bg-red-500" >
+      </label>
+      <label class="flex flex-row-reverse justify-end my-3">
+        <p class="ml-5 text-white font-light">include lowercase letters</p>
+        <input type="checkbox" class="w-5 h-5 words before:w-[3.5vh] before:h-[3.5vh] before:block disabled:before:bg-red-500" disabled>
+      </label>
+      <label class="flex flex-row-reverse justify-end my-3 ">
+        <p class="ml-5 text-white font-light">include numbers</p>
+        <input  type="checkbox" class="w-5 h-5 words before:w-[3.5vh] before:h-[3.5vh] before:block disabled:before:bg-red-500  " disabled>
+      </label>
+      <label class="flex flex-row-reverse justify-end my-3">
+        <p class="ml-5 text-white font-light">include symbols</p>
+        <input type="checkbox" class="w-5 h-5 words before:w-[3.5vh] before:h-[3.5vh] before:block disabled:before:bg-red-500  " disabled >
+      </label>
+
+    </div>
+    <div class="bg-gray-900 flex justify-between p-2 items-center">
+      <p class="text-gray-500">strength</p>
+      <div class="flex items-center w-[46%] justify-between lg:w-[24%] md:w-[20%]">
+        <p class="text-white text-level">low</p>
+        <div class="flex justify-between w-[52%] lg:w-[44%] md:w-[40%] ">
+          
+          <div class="w-4 h-9 border-2 border-white level-pas duration-500 "></div>
+          <div class="w-4 h-9 border-2 border-white level-pas duration-500"></div>
+          <div class="w-4 h-9 border-2 border-white level-pas duration-500"></div>
+          <div class="w-4 h-9 border-2 border-white level-pas duration-500"></div>
+        </div>
+      </div>
+
+    </div>
+    <button class="flex justify-center items-center my-3 p-3 bg-green-400 btn-gen 
+        hover:bg-transparent duration-500  hover:text-green-500 hover:border-green-500 hover:border-4" onclick="genarterpas();">
+      <p >generate</p>
+      <img src="icon/arrow_right.png" alt="" class="w-7">
+    </button>
+  </div>
+
+
+</div>
+<div class="absolute bg-green-500 px-28 py-5 text-green-800 border-green-800 border-2 rounded-lg
+       shadow-md shadow-green-500 left-[-80vh] duration-500 alert top-[22vh]  ">
+      <p>copy to clipbord!</p>
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+
+</html>
